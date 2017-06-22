@@ -105,7 +105,7 @@ body {
 	letter-spacing: 2px;
 }
 
-.content > .btn {
+.content > .myBtn {
 	text-transform: uppercase;
 	font-weight: 500;
 	letter-spacing: 1px;
@@ -114,10 +114,14 @@ body {
 	background-color: transparent;
 	margin: 4px 2px;
 	transition-duration: 0.5s;
+	padding: 6px 12px;
 }
 
-.content > .btn:hover {
+.content > .myBtn:hover {
 	background-color: white;
 	color: #444;
 }
 
+.myBtn:focus {
+	outline: none;
+}
