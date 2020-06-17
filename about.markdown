@@ -4,15 +4,13 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+As Senior Software Engineer at Bank of America, I lead a development team delivering a mobile app solution for [Corporate Cards (Global Card Access)](https://www.bofaml.com/en-us/content/card-solutions.html), providing credit card management solutions to over a million users globally.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+Prior to BofA, I've worked at Nexient, a California based IT services company, where Worked on developing a mobile application, for one of America’s top home improvement supplies retailers, that offers workforce solutions to nearly 400,000 employees.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+I launched my career through my own startup and then transitioning into working for multiple high growth SaaS companies, including India's leading free payroll service provider, [SumoPayroll](https://www.sumopayroll.com/).
 
+Online at:
 
-[jekyll-organization]: https://github.com/jekyll
+- [twitter/AbhishekPiedy](https://twitter.com/AbhishekPiedy)
+- [instagram/abhishek.piedy](https://www.instagram.com/abhishek.piedy/)
