@@ -31,6 +31,9 @@ github_username:  apiedy
 linkedin_username: abhishek-piedy
 instagram_username: abhishek.piedy
 
+header_pages:
+  - about.markdown
+
 # Build settings
 theme: minima
 plugins:
