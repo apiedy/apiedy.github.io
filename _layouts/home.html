@@ -80,5 +80,9 @@ layout: default
         </li>
       {% endfor %}
     </ul>
+
+    {%- if site.data.projects.size > 5 -%}
+      <p class="rss-subscribe">check out my <a href="https://www.github.com/apiedy">GitHub profile</a> for more contributions</p>
+    {%- endif -%}
   {%- endif -%}
 </div>
