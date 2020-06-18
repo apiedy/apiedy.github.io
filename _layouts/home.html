@@ -45,8 +45,9 @@ layout: default
       {% for talk in site.data.talks %}
         <li>
           {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+          <span class="talks-meta">{{ talk.date | date: date_format }}</span>
+
           <h3>
-            <span class="talks-meta">{{ talk.date | date: date_format }}</span>
             <a class="talks-link" target="_blank" href="{{ talk.url }}">{{ talk.title }}</a>
           </h3>
         </li>
@@ -59,8 +60,10 @@ layout: default
     <ul class="press-list">
       {% for talk in site.data.press %}
         <li>
+          {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+          <span class="press-meta">{{ talk.date | date: date_format }}</span>
+
           <h3>
-            <span class="press-meta">{{ talk.date | date: "%b %-d, %Y" }}</span>
             <a class="press-link" target="_blank" href="{{ talk.url }}">{{ talk.title }}</a>
           </h3>
         </li>
@@ -75,8 +78,9 @@ layout: default
         <li>
           <h3>
             <a class="project-link" target="_blank" href="{{ proj.url }}">{{ proj.title }}</a> 
-            <span class="project-meta">{{ proj.desc }}</span>
           </h3>
+
+          <span class="project-meta">{{ proj.desc }}</span>
         </li>
       {% endfor %}
     </ul>

@@ -81,22 +81,25 @@
     list-style: none;
     margin-left: 0px;
 
-    h3 {
+    li {
       @include relative-font-size(1);
-      display: inline-block;
       margin-bottom: 5px;
       width: 100%;
+
+      h3 {
+        margin: 0px;
+      }
     }
 
     @include media-query($on-palm) {
-      h3 {
+      li {
         margin-bottom: 10px;
       }
     }
   }
 
   .talks-list {
-    .talks-link {
+    h3 {
       @include relative-font-size(1.1);
       display: inline-block;
     }
@@ -110,7 +113,7 @@
     }
 
     @include media-query($on-palm) {
-      .talks-link {
+      h3 {
         width: 100%;
       }
 
@@ -123,7 +126,7 @@
   }
 
   .press-list {
-    .press-link {
+    h3 {
       @include relative-font-size(1.1);
       display: inline-block;
     }
@@ -137,7 +140,7 @@
     }
 
     @include media-query($on-palm) {
-      .press-link {
+      h3 {
         width: 100%;
       }
 
@@ -150,18 +153,20 @@
   }
 
   .project-list {
-    .project-link {
+    h3 {
+      @include relative-font-size(1.1);
       display: inline-block;
       padding-right: $spacing-unit/2;
       width: calc(15% - (#{$spacing-unit}/2));
     }
 
     .project-meta {
+      @include relative-font-size(0.9);
       display: inline-block;
     }
 
     @include media-query($on-palm) {
-      .project-link {
+      h3 {
         width: 100%;
         padding-right: 0px;
       }
