@@ -3,12 +3,14 @@
 
   <div class="wrapper">
     <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-3">
-        {%- include social.html -%}
+      <div class="footer-col bio-avatar">
+        <img src="/assets/img/abhishek.JPG" alt="Picture of abhishek" class="bio-image" />
       </div>
 
-      <div class="footer-col footer-col-3">
+      <div class="footer-col bio-copy">
+        <span class="bio-lead">Hello,</span>
         <p>{{- site.description | escape -}}</p>
+        {%- include social.html -%}
       </div>
     </div>
   </div>

@@ -4,13 +4,63 @@
 
 @import "minima";
 
-$base-font-size: 15px !default;
-
 .site-header {
   margin-top: 20px;
   border: none;
 
   .page-link {
     font-weight: 300;
+  }
+}
+
+.site-footer {
+  .footer-col-wrapper {
+    @include relative-font-size(1);
+
+    .bio-avatar {
+      width: calc(25% - (30px/2));
+  
+      .bio-image {
+        height: 110px;
+        width: 110px;
+        max-width: 100%;
+        border-radius: 50%;
+      }
+    }
+  
+    .bio-copy {
+      width: calc(75% - (30px/2));
+      color: $text-color;
+
+      .bio-lead {
+        @include relative-font-size(2);
+      }
+  
+      .social-media-list {
+        li {
+          display: inline-block;
+
+          & + li {
+            padding-top: 0px;
+            padding-left: $base-font-size;
+          }
+
+          .svg-icon {
+            fill: $text-color;
+          }
+        }
+      }
+    }
+
+    @include media-query($on-palm) {
+      .bio-avatar {
+        width: calc(100% - (30px/2));
+        margin-bottom: 30px;
+      }
+  
+      .bio-copy {
+        width: calc(100% - (30px/2));
+      }
+    }
   }
 }
