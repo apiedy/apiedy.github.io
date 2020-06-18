@@ -4,3 +4,5 @@
 
 layout: home
 ---
+
+Hi there, thanks for visiting my website. I'm still gathering my thoughts and in the process of generating more content. Stay tuned for updates...!
