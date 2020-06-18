@@ -33,6 +33,7 @@ instagram_username: abhishek.piedy
 
 header_pages:
   - about.markdown
+  - posts.html
 
 # Build settings
 theme: minima
