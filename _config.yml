@@ -21,11 +21,15 @@
 title: Abhishek Piedy
 email: abhishek.piedy@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  I make computers say "Hello world!"
+  My name is Abhishek. I'm a software engineer working at Bank of America in North Carolina, USA. 
+  I spearhead development teams to reliably deliver web and mobile applications. 
+  I love to build, explore and tinker.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: AbhishekPiedy
 github_username:  apiedy
+linkedin_username: abhishek-piedy
+instagram_username: abhishek.piedy
 
 # Build settings
 theme: minima
